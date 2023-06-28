@@ -12,5 +12,9 @@ Node.js installed on your machine.
 2. Open a terminal or command prompt and navigate to the directory where the code is located.
 3. Install inquirer
 4. Use terminal to enter: Node index.js in the file directory
-5. The script will prompt you to enter the following information: Enter up to three characters for the logo text.Enter the color of the text.Select a shape for the logo. Enter the color of the shape
-6. A log will be created and viewed with a SVG viewer
+5. The script will prompt you to enter the following information:
+- Enter up to three characters for the logo text
+- Enter the color of the text
+- Select a shape for the logo
+- Enter the color of the shape
+7. A log will be created and viewed with a SVG viewer
