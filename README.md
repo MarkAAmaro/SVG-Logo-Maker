@@ -17,4 +17,4 @@ Node.js installed on your machine.
 - Enter the color of the text
 - Select a shape for the logo
 - Enter the color of the shape
-7. A log will be created and viewed with a SVG viewer
+6. A log will be created and viewed with a SVG viewer
