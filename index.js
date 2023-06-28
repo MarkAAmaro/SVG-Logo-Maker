@@ -28,5 +28,16 @@ async function generateLogo() {
         message: 'Enter the shape color (keyword or hexadecimal):',
       },
 ]);
+
+
+const svgTemplate = `<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+<rect width="300" height="200" fill="${userInput.shapeColor}" />
+<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="48" fill="${userInput.textColor}">${userInput.text}</text>
+</svg>`;
+
+fs.writeFile('logo.svg', svgTemplate, function (err) {
+if (err) throw err;
+console.log('Generated logo.svg');
+});
 }
     generateLogo();
